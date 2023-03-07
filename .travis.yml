@@ -8,7 +8,9 @@ before_install:
   - sudo apt update
   - sudo apt install openjfx
 
-script: ./gradlew clean build --scan --no-daemon --info
+script:
+  - ....
+  - sleep 5
 
 # see https://docs.travis-ci.com/user/languages/java/#Projects-Using-Gradle
 before_cache:
