@@ -9,7 +9,6 @@ before_install:
   - sudo apt install openjfx
 
 script:
-  - ....
   - sleep 5
 
 # see https://docs.travis-ci.com/user/languages/java/#Projects-Using-Gradle
